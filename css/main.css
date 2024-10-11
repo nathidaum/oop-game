@@ -1,4 +1,22 @@
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: pink;
+}
+
+#board {
+    height:100vh;
+    height:100vw;
+    position: relative;
+}
+
+#player {
+    background-color: blue;
+    position: absolute;
+}
+
+.obstacle {
+    background-color: orange;
+    position: absolute;
 }
